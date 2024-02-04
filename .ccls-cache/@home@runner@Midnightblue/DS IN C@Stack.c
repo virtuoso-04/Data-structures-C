@@ -17,7 +17,7 @@ int main()
   while(1)
     {
       printf("1. push an element in the stack \n");
-      printf("2. pop an element from the stackn \n");
+      printf("2. pop an element from the stack \n");
       printf("3. peek an ement from the stack \n");
       printf("4. display the elements in the stack \n");
       printf("enter choice \n");
@@ -72,6 +72,6 @@ void display()
   int i;
   for(i=0;i<=top;i++)
     {
-      printf("%d \n",stack[top]);
+      printf("%d \n",stack[i]);
     }
 }
