@@ -1,7 +1,9 @@
+#ifndef Stack_H
+#define Stack_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 5
-
 // initial declarations
 int top = -1;
 int stack[MAX];
@@ -72,3 +74,5 @@ void display() {
     printf("%d \n", stack[i]);
   }
 }
+
+#endif // STACK_H

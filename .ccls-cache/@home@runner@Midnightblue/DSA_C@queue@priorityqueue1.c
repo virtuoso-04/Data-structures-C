@@ -1,15 +1,24 @@
+#ifndef priorityqueue1_H
+#define priorityqueue1_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 5
-// initial declarations
-int front = -1;
-int rear = -1;
-int queue[MAX];
+
+// ... (rest of the file content)
+
 // function prototypes
 void enqueue(int);
 void dequeue();
 void display();
 void peek();
+
+#endif // priorityqueue1_H
+
+// initial declarations
+int front = -1;
+int rear = -1;
+int queue[MAX];
 // main function
 int main() {
   int ch, item;
@@ -72,5 +81,7 @@ void display() {
     printf("\n");
   }
 }
+
+
 
 // end of code

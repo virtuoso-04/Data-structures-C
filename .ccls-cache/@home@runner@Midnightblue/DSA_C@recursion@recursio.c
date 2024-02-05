@@ -1,6 +1,10 @@
+#ifndef recursio_H
+
+#define recursio_H
 #include<stdio.h>
 int num;
 
+#endif 
 int fact(int n)
 {
   if(n==0||n==1)
